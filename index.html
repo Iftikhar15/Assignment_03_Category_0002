@@ -16,8 +16,11 @@
             @layer utilities {
                 .bg-gradient-custom {
                     background-image: linear-gradient(180deg, #FFF 0%, #EFEBE3 100%);
-
+                    
                 }
+                /* .bg-green-gradient{
+                    background-image: bg-gradient-to-br from-green-400 to-slate-50;
+                } */
             }
         </style>
     
@@ -155,117 +158,213 @@
             </section>
             <!-- popular product section -->
 
-            <div class="bg-gray-100">
-                <div class="container mx-auto p-4">
-                    <h1 class="text-3xl font-bold mb-4">Popular Products</h1>
-                    <div class="flex mx-auto">
-                        <div class="w-1/3 bg-green-200 p-6 rounded-lg">
-                            <h2 class="text-2xl font-bold mb-2">30% off</h2>
-                            <p class="mb-4">Discover a world of treats, toys, and essentials handpicked for your furry friends.</p>
-                            <button class="bg-white text-green-500 font-bold py-2 px-4 rounded">Buy Now</button>
-                            <div class="mt-4 flex">
-                                <!-- <img src="banana.png" alt="Banana" class="w-16 h-16"> -->
-                                <img src="/c2-assets/vegetable-offer.png" alt="Greens" class="w-16 h-16 ml-2">
-                            </div>
-                        </div>
-                        <div class="bg-gray-100">
-                            <div class="container mx-auto p-4">
-                                <div class="grid grid-cols-3 grid-rows-3 gap-4">
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="onion.png" alt="Onion" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
-                                        </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Onion 1 KG</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
+            <div class="bg-[#EFEBE3] flex justify-center items-center ">
+               
+                    
+                    <div class="container p-4 max-w-screen-xl  mx-auto px-16 py-3 lg:px-35 lg:py-6">
+                        <h1 class="text-2xl font-bold text-green-600 items-center justify-center lg:justify-normal mx-auto flex">Popular Products</h1>
+                        <div class=" flex flex-col lg:flex-row mx-auto justify-center items-center gap-4">
+                            <!-- left side banana box -->
+                             
+                                <div class=" relative bg-lime-300 text-white p-6 rounded-lg lg:w-1/3 flex flex-col justify-center items-center">
+                                    <div>
+                                        <h2 class="text-3xl font-bold mb-4">30% off</h2>
+                                        <p class="mb-4">Discover a world of treats, toys, and essentials handpicked for</p>
+                                        <button class="bg-white text-green-500 font-bold py-2 px-4 rounded">Buy Now</button>
                                     </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="tomato.png" alt="Tomato" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
-                                        </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Tomato 500 g</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
+                                    <div class="absolute w-1/2 md:w-1/2 lg:w-1/2 bottom-3 right-4 ">
+                                            <img src="/c2-assets/vegetable-offer.png" alt="Banana" class="">
                                     </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="potato.png" alt="Potato" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
+                                    
+                                </div>
+                            
+                            <!-- right side grid grid products -->
+
+                            <div class="bg-[#EFEBE3]">
+                                <div class="container mx-auto p-4">
+                                    <div class="grid grid-cols-2  lg:grid-cols-3  gap-6 mx-auto">
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/onions.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Onion 1 KG</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Potato 1 KG</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
-                                    </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="onion.png" alt="Onion" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/tomatoes.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Tomato 500 g</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Onion 1 KG</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
-                                    </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="tomato.png" alt="Tomato" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/potatoes.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Potato 1 KG</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Tomato 500 g</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
-                                    </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="potato.png" alt="Potato" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/tomatoes.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Tomato 500 g</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Potato 1 KG</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
-                                    </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="onion.png" alt="Onion" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/onions.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Onion 1 KG</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Onion 1 KG</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
-                                    </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="tomato.png" alt="Tomato" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/tomatoes.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Tomato 500 g</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Tomato 500 g</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
-                                    </div>
-                                    <div class="p-4 border rounded shadow bg-white">
-                                        <img src="potato.png" alt="Potato" class="w-full h-32 object-cover mb-2">
-                                        <div class="flex items-center mt-2">
-                                            <span class="text-yellow-500">★</span>
-                                            <span class="ml-1 text-gray-700">4.5</span>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/onions.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Onion 1 KG</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h2 class="mt-2 text-lg font-semibold">Potato 1 KG</h2>
-                                        <p class="mt-1 text-gray-600">$39.99</p>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/potatoes.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Potato 1 KG</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" flex justify-center items-center overflow-hidden mx-auto p-4 border rounded-lg h-29 shadow bg-white">
+                                            <div>
+                                                <img src="/c2-assets/potatoes.png" alt="Onion" class="bg-[#EFEBE3] rounded-lg w-24 h-20">
+                                            </div>
+                                            <div class="flex items-center mx-auto">
+                                                <div class="mx-auto">
+                                                    <div class="flex items-center mx-auto">
+                                                        <span class="text-yellow-500">★</span>
+                                                        <span class="ml-1 text-gray-700">4.5</span>
+                                                    </div>
+                                                    <h2 class="mt-2 text-lg font-semibold">Potato 1 KG</h2>
+                                                    <p class="mt-1 text-gray-600">$39.99</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                    
                                     </div>
-                                    <!-- Additional product cards can be added here following the same structure -->
                                 </div>
                             </div>
                         </div>
-                        
+                    </div>
+                
+            </div>
+
+            <!--Arrivals & Offers  -->
+            <div class="flex justify-center items-center space-x-4">
+                <!-- Daawat Promo -->
+                <div class="bg-green-900 text-white p-6 rounded-lg flex flex-row items-center">
+                    <div>
+                        <h2 class="text-lg font-bold">DAAWAT</h2>
+                        <img src="/c2-assets/dawat-logo.png" alt="">
+                        <p class="text-sm">The FINEST</p>
+                        <p class="bg-green-700 text-white py-1 px-3 rounded mt-2">Cook Exotic Dishes</p>
+                        <p class="text-2xl font-bold mt-4">UP to 20% OFF</p>
+                    </div>
+                    <div>
+                        <img src="/c2-assets/dawat-mock-up.png" alt="Daawat Biryani Rice" class="mt-4">
                     </div>
                 </div>
-            </div>
+                <!-- India Gate Promo -->
+                <div class="bg-blue-900 text-white p-6 rounded-lg flex flex-row items-center">
+                    <div>
+                        <img src="/c2-assets/india-gate-logo.png" alt="">
+                        <p class="bg-blue-700 text-white py-1 px-3 rounded mt-2">World’s No.1 Rice</p>
+                        <p class="text-2xl font-bold mt-4">UP to 40% OFF</p>
+                    </div>
+                    <div>
+                        <img src="/c2-assets/india-gate-mock-up.png" alt="India Gate Basmati Rice" class="mt-4">
+                    </div>
+                </div>
+              </div>
+              
 
         
         </main>
 
     </body>
       <!-- Footer Section -->
+
+        
+       
       <footer></footer>
     </html>
 
